@@ -1,7 +1,7 @@
 {
   "name": "material-bread-electron-start",
   "version": "0.0.1",
-  "description": "Material Brread",
+  "description": "Material Bread Electron Starter",
   "scripts": {
     "server": "webpack-dev-server --config ./webpack.config.js",
     "electron": "electron ./src/main.js",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "material-bread": "0.0.1",
+    "material-bread": "0.0.3",
     "warning": "^4.0.3"
   },
   "peerDependencies": {

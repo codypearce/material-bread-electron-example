@@ -8,7 +8,6 @@ const materialFont = new FontFace(
   "url(../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf)"
 );
 document.fonts.add(materialFont);
-
 class Index extends Component {
   render() {
     return (
