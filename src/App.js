@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { View, Text } from "react-native";
-import { Appbar, Fab, Badge, IconButton } from "material-bread";
+import { View } from "react-native";
+import { Appbar, Fab, Heading, Badge, IconButton } from "material-bread";
 import "./styles/global.css";
 
 const materialFont = new FontFace(
@@ -19,6 +19,7 @@ class Index extends Component {
           onNavigation={() => console.log("onNavigation!")}
           actionItems={[
             <Badge
+              key={3}
               containerStyle={{ marginRight: 16, flex: 1 }}
               color={"#e10050"}
               textColor={"white"}
@@ -31,7 +32,8 @@ class Index extends Component {
             { name: "more-vert" }
           ]}
         />
-        <Text style={styles.title}>Material Bread</Text>
+
+        <Heading style={styles.title}>Material Bread</Heading>
         <View style={styles.content}>
           <Fab style={styles.fab} />
         </View>
