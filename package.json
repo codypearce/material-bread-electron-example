@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "material-bread": "0.0.5",
+    "material-bread": "0.1.1",
     "warning": "^4.0.3"
   },
   "peerDependencies": {
