@@ -11,6 +11,7 @@ const createWindow = () => {
     center: true,
     show: false
   });
+
   win.loadURL(`file://${__dirname}/index.html`);
 
   win.on("closed", () => {
