@@ -22,6 +22,7 @@ module.exports = {
               "@babel/plugin-transform-flow-strip-types",
               "@babel/plugin-proposal-class-properties",
               "@babel/plugin-proposal-object-rest-spread",
+              "@babel/plugin-proposal-export-default-from",
               "@babel/plugin-transform-runtime",
               "@babel/plugin-transform-regenerator"
             ]

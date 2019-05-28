@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "material-bread": "0.0.5",
+    "material-bread": "0.1.6",
     "warning": "^4.0.3"
   },
   "peerDependencies": {
@@ -24,6 +24,7 @@
     "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-export-default-from": "*",
     "@babel/plugin-proposal-object-rest-spread": "*",
     "@babel/plugin-transform-flow-strip-types": "*",
     "@babel/plugin-transform-regenerator": "^7.4.3",
