@@ -11,7 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "material-bread": "0.1.6",
+    "material-bread": "0.1.10",
+    "modal-enhanced-react-native-web": "^0.2.0",
     "warning": "^4.0.3"
   },
   "peerDependencies": {
